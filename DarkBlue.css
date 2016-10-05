@@ -1,2 +1,15 @@
 ﻿body {
+    background-color:blue;
+    font-family:sans-serif;
+
+}
+ul{
+    text-align:center;
+    list-style-position:inside;
+} 
+a{
+    color:blueviolet;
+}
+.copyright{
+    font-style:italic;
 }
