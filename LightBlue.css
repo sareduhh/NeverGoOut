@@ -1,2 +1,21 @@
 ﻿body {
+    background-color:lightblue;
+    font-family:sans-serif;
+}
+h1{
+    font-family:serif;
+}
+ul{
+    text-align:center;
+    list-style-type:none;
+}
+ul li::first-letter{
+    font-size:large;
+    font-weight:bold;
+    font-stretch:expanded;
+}
+#wrap{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
 }
