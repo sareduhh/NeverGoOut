@@ -1,2 +1,40 @@
 ﻿body {
+    font-family:serif;
+    background-color:burlywood;
+    padding: 1.5cm;
+}
+h1{
+    text-align:center;
+    border-bottom:dotted;
+    font-weight: 800;
+    font-style:italic;
+}
+p{
+    font-size:10pt;
+    font-family:sans-serif;
+}
+ul{
+    text-align:center;
+    list-style-type:none;
+    font-style:italic;
+    
+}
+ul li::first-letter{
+    font-size:large;
+    font-weight:bold;
+    font-stretch:expanded;
+}
+#wrap{
+    background-color:antiquewhite;
+    border-bottom:dotted;
+    border-top:dotted;
+    border-left:dotted;
+    border-right:dotted;
+    width:75%;
+    margin-right: auto;
+    margin-left:auto;
+}
+.copyright{
+    text-align:center;
+    font-size:8pt;
 }
